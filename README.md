@@ -14,14 +14,14 @@ This project allows you to upload documents and interact with them using natural
 ---
 
 ## Project Structure
+```bash
 qa-system/
-│── app.py # Main Streamlit app
-│── requirements.txt # Python dependencies
-│── .env # Example environment variables
-│── .gitignore # Ignored files for git
-│── README.md # Project documentation
-│── personal_docs/ # Example folder for documents
+│── app.py             # Main Streamlit app
+│── requirements.txt   # Python dependencies
+│── .env               # Environment variables file
+│── .gitignore         # Ignored files for git
+│── README.md          # Project documentation
+│── personal_docs/     # Example folder for documents
+
 
 python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
