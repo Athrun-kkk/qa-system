@@ -29,3 +29,32 @@ qa-system/
 ```bash
 python -m venv venv
 ```
+2. Activate it
+```bash
+# On macOS/Linux
+source venv/bin/activate
+
+# On Windows
+venv\Scripts\activate
+```
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+4. Open .env and add your API keys
+```bash
+# OpenAI API key
+OPENAI_API_KEY=your_openai_api_key_here
+```
+5. Add documents
+Place your PDF, DOCX, or TXT files inside the personal_docs/ folder.
+6.Run the Streamlit app
+```bash
+streamlit run app.py
+```
+7. Open in browser
+By default, the app runs at:
+```bash
+http://localhost:8501
+```
+
