@@ -22,6 +22,10 @@ qa-system/
 │── .gitignore         # Ignored files for git
 │── README.md          # Project documentation
 │── personal_docs/     # Example folder for documents
+```
 
-
+## Setup
+1. Create a virtual environment
+```bash
 python -m venv venv
+```
