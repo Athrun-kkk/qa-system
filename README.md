@@ -47,8 +47,13 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 5. Add documents
-Place your PDF, DOCX, or TXT files inside the personal_docs/ folder.
-6.Run the Streamlit app
+Place your PDF, DOCX, or TXT files inside the below folder
+```bash
+./personal_docs/
+```
+
+
+6. Run the Streamlit app
 ```bash
 streamlit run app.py
 ```
