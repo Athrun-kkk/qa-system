@@ -1,4 +1,4 @@
-# QA System
+# QA System based on RAG
 
 A simple Question-Answering (QA) system based on RAG built with [Streamlit](https://streamlit.io/), [LangChain](https://www.langchain.com/), and [OpenAI](https://platform.openai.com/).  
 This project allows you to upload documents and interact with them using natural language queries.  
